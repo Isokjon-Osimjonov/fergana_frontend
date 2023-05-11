@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='main_wrapper'>
       <img className='logo' src={Logo} alt='' />
-      <div className='contents_cpntainer'>
+      <div className='contents_container'>
         <div className='category1'>
           <Link className='link' to='/fmeals'>
             Birinchi Taomlar
