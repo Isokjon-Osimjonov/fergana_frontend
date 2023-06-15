@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Logo from "../../assets/Halal Foods.png";
+import Logo from '../../assets/HalalFoods.png'
 import {  Link, NavLink } from "react-router-dom";
 
 const Home = () => {

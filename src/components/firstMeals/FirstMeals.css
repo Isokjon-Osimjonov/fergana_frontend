@@ -6,13 +6,18 @@
   margin: 10px auto;
   background-color: #fff;
 }
+.container {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
 .title {
   display: flex;
   justify-content: center;
   color: #4ea74a;
   margin-bottom: 20px;
 }
-.go_back{
+.go_back {
   color: red;
   font-weight: 700;
   border: 1px solid #000;
@@ -31,6 +36,7 @@
   align-items: center;
   padding: 10px 0px;
   background-color: #fff;
+  flex-direction: column;
 }
 
 .img_div {
@@ -38,6 +44,10 @@
   height: 200px;
   border-radius: 50%;
   background-color: rgb(243, 16, 205);
+}
+.meal_img {
+ width: 150px;
+  height: 150px;
 }
 .name_price {
   background-color: bisque;
