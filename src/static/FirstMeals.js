@@ -3,13 +3,13 @@ export const FIRST_MEALS_STATIC = [
   {
     id: 0,
     name: "Qovurma Lag'mon",
-    price: 11.0,
+    price: "11.000",
     image:Lagmonq,
   },
   {
     id: 1,
     name: "Qovurma Lag'mon",
-    price: 10.0,
+    price: "10.000",
     image: '',
   },
 ];
