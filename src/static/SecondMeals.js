@@ -12,6 +12,9 @@ import Gollandskiy from '../assets/gollandskiypng.png';
 import Non from '../assets/non.png';
 import Qiyma from '../assets/qiyma.png';
 import Tovuqsh from '../assets/tovuqsh.png';
+import Kf from '../assets/kf.png';
+import SirliK from '../assets/sirlik.png';
+import Qsh from '../assets/qsh.png';
 
 export const SECOND_MEALS_STATIC = [
   {
@@ -36,7 +39,7 @@ export const SECOND_MEALS_STATIC = [
     id: 3,
     name: 'Kurinney file',
     price: '10.000',
-    // image: Kurinney,
+    image: Kf,
   },
 
   {
@@ -73,7 +76,7 @@ export const SECOND_MEALS_STATIC = [
     id: 9,
     name: 'Sirniy Katlet',
     price: '12.000',
-    image: '',
+    image: SirliK,
   },
   {
     id: 10,
@@ -109,7 +112,7 @@ export const SECOND_MEALS_STATIC = [
     id: 15,
     name: 'Qiyma shashlik',
     price: '6.000',
-    image: '',
+    image: Qsh,
   },
   {
     id: 16,
