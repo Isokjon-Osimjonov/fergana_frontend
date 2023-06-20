@@ -1,7 +1,7 @@
-import React from "react";
-import "./Home.css";
-import Logo from '../../assets/HalalFoods.png'
-import {  Link, NavLink } from "react-router-dom";
+import React from 'react';
+import './Home.css';
+import Logo from '../../assets/HalalFoods.png';
+import { Link, NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div className='category4'>
           <Link className='link' to='/desserts'>
-            Disertlar
+            Ichimliklar va Shirinliklar
           </Link>
         </div>
       </div>

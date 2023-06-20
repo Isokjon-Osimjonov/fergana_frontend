@@ -1,23 +1,22 @@
 import React from 'react';
 import Logo from '../../assets/HalalFoods.png';
-import { FIRST_MEALS_STATIC } from '../../static/FirstMeals';
+import './Desserts.css';
+import { DRINKS_DESSERTSSTATIC } from '../../static/Desserts';
 import { Link } from 'react-router-dom';
-const FirstMeals = () => {
+const Desserts = () => {
   return (
     <div className='main__container_fMeals'>
       <div className='content_wrapper'>
         <img className='logo' src={Logo} alt='' />
-        <h1 className='title'>Birinchi Taomlar</h1>
-        <Link className='go_back' to='/'>
-          Menu
-        </Link>
+        <h1 className='title'>Ichimlik va Shirinliklar</h1>
 
-        <div className='meals_container'>
-          {FIRST_MEALS_STATIC?.map((meal) => (
+         <div className='meals_container'>
+          <Link className='go_back' to='/'>
+            Menu
+          </Link>
+          {DRINKS_DESSERTSSTATIC?.map((meal) => (
             <div className='container'>
-              <div className='img_div'>
-                <img src='' alt='' />
-              </div>
+              <img className='meal_img' src={meal.image} alt='' />
               <div className='name_price'>
                 <h1 className='name'>{meal.name}</h1>
                 <h2 className='price'>{meal.price}</h2>
@@ -30,4 +29,6 @@ const FirstMeals = () => {
   );
 };
 
-export default FirstMeals;
+export default Desserts;
+
+
